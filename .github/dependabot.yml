@@ -1,0 +1,11 @@
+# Keeps the SHA-pinned GitHub Actions current: one weekly PR; CI runs on it
+# before merge. Add an ecosystem here when the app gains dependencies.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      actions:
+        patterns: ["*"]
