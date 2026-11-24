@@ -55,7 +55,7 @@ code.
 
 | Question | Answer |
 | :--- | :--- |
-| Where does the decision live? | aval ADR 0008, [a process boundary between core, memory and desktop](https://github.com/alvaroofernaandez/aval/pull/99). It is proposed, so the link is its pull request until it merges. |
+| Where does the decision live? | aval ADR 0008, [a process boundary between core, memory and desktop](https://github.com/alvaroofernaandez/aval/blob/main/docs/adr/0008-process-boundary-core-memory-desktop.md), accepted on 2026-11-24. |
 | Who owns the protocol? | aval. The specification and its conformance suite live in the aval repository. |
 | What if desktop needs a new call? | Two pull requests, one per repository, linked by protocol version. Never a shared commit. |
 | When does it ship? | Roadmap milestone [v0.9.0](https://github.com/alvaroofernaandez/aval/milestone/5), after aval core (v0.6.0) and the aval TUI (v0.7.0). |
