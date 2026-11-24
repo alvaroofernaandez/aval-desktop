@@ -16,6 +16,10 @@ through `CLAUDE.md`).
   No `Co-Authored-By` or AI attribution.
 - **Plan before execution.** Substantial work gets a plan in
   `odd/tasks/<feature>.md` before the first source edit.
+- **Docs gate.** `scripts/check-docs.sh` must pass (links resolve, no personal
+  data, no external URLs in SVGs); CI runs it as the `docs` workflow.
+- **Brand.** Assets in `docs/assets/` follow aval's `.agents/DESIGN.md` and are
+  named by content hash. Never hand-pick a new palette.
 - **Never push unasked.**
 
 ## Output contract
